@@ -1,0 +1,42 @@
+:root {
+    --color-primary: #293E34;
+    --color-secondary: #54a87f;
+    --color-text: #000;
+    --color-buttons: #293E34;
+    --color-buttons-hover: #ffffff;
+    --bg-color-buttons: #ffffff;
+    --bg-color-buttons-hover: #54a87f;
+
+    --border-radius: 8px;
+
+    --border-1: 2px solid #0000000b;
+
+    --transition-6: ease-in-out 0.6s;
+}
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Yekan';
+    background-image: url('/assets/images/background-irangrowth.jpg');
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}

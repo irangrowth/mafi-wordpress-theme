@@ -1,0 +1,60 @@
+/* Showcase section */
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#showcase .showcase-content .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase .showcase-content .container .showcase-logo {
+    font-size: 100px;
+    color: var(--color-secondary);
+    font-weight: bolder;
+}
+
+#showcase .showcase-content .container .showcase-heading {
+    color: var(--color-primary);
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+#showcase .showcase-content .container .showcase-des {
+    color: var(--color-primary);
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#showcase .showcase-content .container .showcase-buttons ul {
+    display: flex;
+    gap: 20px;
+}
+
+#showcase .showcase-content .container .showcase-buttons ul li a {
+    width: 250px;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--border-radius);
+    color: var(--color-buttons);
+    background-color: var(--bg-color-buttons);
+    transition: var(--transition-6);
+    border: var(--border-1);
+    font-weight: bolder;
+}
+
+#showcase .showcase-content .container .showcase-buttons ul li a:hover {
+    color: var(--color-buttons-hover);
+    background-color: var(--bg-color-buttons-hover);
+}
