@@ -1,15 +1,45 @@
 /* Header Section Styles */
+#header .header-content {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 #header .header-content .container .header-navigation {
-    height: 125px;
+    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #6f655c51;
+    border-radius: 100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-#header .header-content .container .header-navigation .header-navigation-logo {
-    font-size: 50px;
-    font-weight: bolder;
-    color: var(--color-secondary);
+#header .header-content .container .header-navigation .header-navigation-searchbar {
+    display: flex;
+    direction: ltr;
+    background-color: var(--bg-color-searchbar);
+    width: 700px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#header .header-content .container .header-navigation .header-navigation-searchbar input {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 100px;
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
 }
 
 #header .header-content .container .header-navigation .header-navigation-buttons ul {
@@ -19,17 +49,11 @@
 
 #header .header-content .container .header-navigation .header-navigation-buttons ul li a {
     display: flex;
-    width: 150px;
-    height: 50px;
-    gap: 10px;
-    border-radius: var(--border-radius);
-    align-items: center;
     justify-content: center;
-    color: var(--color-primary);
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    color: var(--color-text);
     background-color: var(--bg-color-buttons);
-    transition: var(--transition-6);
-}
-
-#header .header-content .container .header-navigation .header-navigation-buttons ul li a:hover {
-    background-color: var(--bg-color-buttons-hover);
 }

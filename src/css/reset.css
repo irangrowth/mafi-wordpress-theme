@@ -1,11 +1,12 @@
 :root {
-    --color-primary: #214A40;
-    --color-secondary: #3CD5AF;
-    --color-text: #000;
+    --color-primary: #4D1559;
+    --color-secondary: #7F92B1;
+    --color-text: #fff;
     --color-buttons: #214A40;
     --color-buttons-hover: #ffffff;
-    --bg-color-buttons: #ffffff;
-    --bg-color-buttons-hover: #68E1C3;
+    --bg-color-buttons: #9E968D;
+    --bg-color-buttons-hover: #d768e1;
+    --bg-color-searchbar: #71655C;
 
     --border-radius: 8px;
 
@@ -26,7 +27,7 @@
 body {
     direction: rtl;
     font-family: 'Yekan';
-    background-image: url(/assets/images/background-mafi.jpg);
+    background-color: #999089;
 }
 
 ul,
